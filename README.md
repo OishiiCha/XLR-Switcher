@@ -7,6 +7,8 @@ However for this type of device, it may not be worth doing that, you may instead
 
 The app will auto detect the com which the device is connected to, if it is not detecting the pico still, disconnect the pico, then close any program that may be using it such as Thonny and connect the Pico again.
 
+This is built for CircuitPython rather than MicroPython, so the pico code will not work on MicroPython. 
+
 ### Generating the .exe File
 ```
 pyinstaller --clean --onefile --noconsole --icon=images/logo.ico --add-data "images/logo.ico;images" main.py --name "XLR Switcher"
