@@ -9,6 +9,8 @@ The app will auto detect the com which the device is connected to, if it is not 
 
 This is built for CircuitPython rather than MicroPython, so the pico code will not work on MicroPython. 
 
+To disable the usb mounting of the microcontroller, place the boot.py on the microcontroller.
+
 ### Generating the .exe File
 ```
 pyinstaller --clean --onefile --noconsole --icon=images/logo.ico --add-data "images/logo.ico;images" main.py --name "XLR Switcher"
