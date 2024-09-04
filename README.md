@@ -23,3 +23,7 @@ pyinstaller --clean --onefile --noconsole --icon=images/logo.ico --add-data "ima
 
 ## Example config
 ![image](https://github.com/user-attachments/assets/b4e4beaf-83d5-4a29-8fc9-3464d575df2a)
+
+
+## Components
+![Components](https://github.com/user-attachments/assets/7f4a98ff-9150-4af4-93e1-503b5bc41754)
