@@ -161,11 +161,6 @@ class GPIOControlApp(QtWidgets.QWidget):
                 self.notes[gpio] = note
                 file.write(f"{gpio}:{note}\n")
 
-    def start_connection_thread(self):
-        """Start the thread that manages the serial connection."""
-        self.connection_thread = threading.Thread(target=self.manage_connection, daemon=True)
-        self.connection_thread.start()
-
     
     def manage_connection(self):
         """Manage the connection to the serial device, handling reconnections."""
